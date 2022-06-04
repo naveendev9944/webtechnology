@@ -638,7 +638,7 @@ header .social-icons ul > li:nth-child(2) {
 .subscribe .form-inline .btn-primary:not(:disabled):not(.disabled):active,
 .subscribe .form-inline .btn-primary:hover {
     color: #000000;
-    background-color: transparent;
+    background-color: white;
     border-color: #000000;
     border: 2px solid #000000;
 }
