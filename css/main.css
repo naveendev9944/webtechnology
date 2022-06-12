@@ -358,12 +358,6 @@ header .social-icons ul > li:nth-child(2) {
 .services span {
     font-size: 18px;
 }
-/*
-.services a {
-    text-decoration: none;
-    color: #0062cc;
-    border-bottom: 2px solid #0062cc;
-}*/
 .services {
     width: 100%;
     height: 100%;
@@ -389,28 +383,12 @@ header .social-icons ul > li:nth-child(2) {
     -moz-transition: .5s all ease;
     transition: .5s all ease;
 }
-/*
-.services .card:hover {
-    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-}
-*/
+
 .services .card .card-block {
     padding-left: 50px;
     position: relative;
 }
-/*
-.services .card .card-block a {
-    color: #000000 !important;
-    border-bottom: none;
-}
 
-.services .card .card-block a i {
-    display: none;
-
-}
-*/
 .services .card p {
     font-size: 12px;
     font-weight: 500;
@@ -418,13 +396,7 @@ header .social-icons ul > li:nth-child(2) {
     line-height: 25px;
     padding-bottom: 20px;
 }
-/*
-.services .card:hover .card-block a i {
-    display: inline-block;
-    font-weight: 700;
 
-}
-*/
 .services .card .card-block h3:before {
     font-family: FontAwesome;
     position: absolute;
@@ -462,24 +434,7 @@ header .social-icons ul > li:nth-child(2) {
     background-size: cover;
     position: relative;
 }
-/*
-.support:after {
-    background-image: url("../images/contat-border.png");
-    background-repeat: no-repeat;
-    content: " ";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 32px;
-}
 
-.support .figure {
-    width: 100%;
-    height: auto;
-}
-*/
 .support .heading h2 {
     font-size: 32px;
     font-weight: 600;
@@ -535,13 +490,6 @@ header .social-icons ul > li:nth-child(2) {
     text-transform: uppercase;
     border: 2px solid #ffaf00;
 }
-/*
-.support .btn-primary:not(:disabled):not(.disabled):active {
-    color: #000;
-    background-color: transparent;
-    ;
-    border-color: #000;
-}*/
 
 .support .btn-primary:hover {
     color: #000;
@@ -562,96 +510,6 @@ header .social-icons ul > li:nth-child(2) {
     margin-bottom: 15px;
     padding: 20px 13px;
 }
-
-
-/*==============================
-      // subscribe Styles //
-==============================*/
-
-.subscribe {
-    width: 100%;
-    height: auto;
-    padding: 70px 0;
-    color: #000000;
-    position: relative;
-    background-color: red;
-}
-
-.subscribe:before {
-    background-color: red; 
-    background-repeat: no-repeat;
-    content: " ";
-    display: block;
-    position: absolute;
-    top: -9px;
-    left: 0;
-    width: 100%;
-    height: 32px;
-}
-
-.subscribe:after {
-    background-color: red;
-    background-repeat: no-repeat;
-    content: " ";
-    display: block;
-    position: absolute;
-    bottom: -31px;
-    left: 0;
-    width: 100%;
-    height: 40px;
-}
-
-.subscribe .heading {
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.subscribe .heading h2 {
-    font-size: 24px;
-    color: #ffffff;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-}
-
-.subscribe .form-inline .form-control {
-    width: 100%;
-    padding: 15px 15px;
-    border-radius: 0;
-    box-shadow: none;
-    border: none;
-}
-
-.subscribe .form-inline .btn-primary {
-    padding: 13px 30px;
-    border-radius: 0;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    font-size: 14px;
-    color: #fff;
-    background-color: #000000;
-    border-color: #000000;
-    text-transform: uppercase;
-    border: 2px solid #000000;
-}
-
-.subscribe .form-inline .btn-primary:not(:disabled):not(.disabled):active,
-.subscribe .form-inline .btn-primary:hover {
-    color: #000000;
-    background-color: white;
-    border-color: #000000;
-    border: 2px solid #000000;
-}
-
-
-.subscribe ::placeholder {
-    color: #dadada;
-    font-weight: 500;
-    font-size: 14px;
-    text-transform: capitalize;
-    font-family: 'Montserrat', sans-serif;
-}
-
 footer {
     width: 100%;
     height: auto;
@@ -757,12 +615,7 @@ footer h5 {
     color: #ffffff;
     text-decoration: none;
 }
-/*
-.banner .btn-warning:not(:disabled):not(.disabled):active:focus,
-.banner .btn-primary:not(:disabled):not(.disabled):active:focus {
-    box-shadow: none;
-}
-*/
+
 
 .banner h1 {
     color: #ffffff;
@@ -806,14 +659,7 @@ footer h5 {
     margin-right: 40px;
     margin-bottom: 40px;
 }
-/*
-.about-us .thumbnail {
-    padding: 0;
-    border: none;
-    border-radius: 0;
-    object-fit: cover;
-}
-*/
+
 /*==========================
         Contact-Page
 ===========================*/
@@ -962,7 +808,7 @@ address p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin-top: 50px;
 }
 .socials li{
     margin: 0 10px;
@@ -982,4 +828,21 @@ address p {
 
 .list-unstyled a:hover{
     color: red;
+}
+
+/*Gallery Styling*/
+
+.gallery{
+    padding: 0 0 4rem 0;
+    
+}
+
+.gallery img{
+        width: 100%;
+      height: 300px;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      margin-top: 30px;
 }
