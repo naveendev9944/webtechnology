@@ -98,22 +98,27 @@
                 </div>
                 <div class="col-12 col-lg-12 col-xl-8">
                 <p>Want to Know from us? Just give your details we'll get back to you soon...</p>
-                    <form>
+                <form action="/app.js" method="post">
                         <div class="row">
                             <div class="col-sm-6 form-group">
-                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                            </div>
+                                                    
+                                    <input class="box" type="text" name="name" id="name"
+                                    placeholder="Name" required />
+
+                                   <br>
+                                            
+                                    </div>
                             <div class="col-sm-6 form-group">
-                                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                            </div>
+                                <input class="box" type="email" name="email" id="email"
+                                placeholder="E-Mail " required /></div>
                             <div class="col-sm-12 form-group">
-                                <input class="form-control" id="email" name="email" placeholder="Phone Number" type="text" required>
-                            </div>
+                                <input class="box" type="text" name="phone" id="phone"
+                                    placeholder="Phone Number " required/></div>
                         </div>
                         <textarea class="form-control" id="comments" name="comments" placeholder="Message" rows="7"></textarea><br>
                         <div class="row">
                             <div class="col-sm-12 form-group">
-                                <button class="btn btn-default pull-left" type="submit">contact</button>
+                      <input type="submit" id="submitDetails" name="submitDetails" value="Submit" />
                             </div>
                         </div>
                     </form>
